@@ -1,0 +1,152 @@
+/* navbar */
+.page-body > .navbar-fixed-top {
+	background-color: 2C2E2F;
+	border-bottom: 1px solid white;
+}
+
+.logo-env > .logo > img {
+	padding-top: 5%;
+	padding-left: 15%;
+	height: 80%;
+}
+
+.search-env > .navbar-left {
+	width: 45%;
+	margin-left: 45px;
+}
+
+.search-env > .navbar-left > form {
+	padding-top: 18px;
+}
+
+.search-env > .navbar-left > form > button {
+	padding-top: 32.5px;
+}
+
+.navbar-collapse > .navbar-right {
+	padding-top: 18px;
+}
+
+.navbar-collapse > .navbar-right > .btn-group > button {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/* main menu*/
+.main-menu > li > a > i{
+	height: 13px;
+	width: 13px;
+}
+/* main content */
+#loading-container{
+	text-align:center;
+}
+
+.cbp_tmtimeline > li > div > i {
+	padding-top: 10px;
+}
+
+.cbp_tmlabel > h2 > a {
+	font-weight: bold;
+}
+
+/* chart */
+#Risk-Reward {
+	height: 400px;
+}
+
+#Roi {
+	height: 250px;
+}
+
+#KnowledgeGraph-TreeChart {
+	height: 600px;
+}
+
+.tab-content > .tab-pane > .panel{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.tab-content > .tab-pane > .panel > .panel-heading{
+	padding-left: 20px;
+	font-weight: bold;
+	font-style: italic;
+	font-family: Microsoft YaHei;
+	color:black;
+}
+
+.tab-content > .tab-pane > .panel > .panel-heading > .panel-options {
+	padding-right: 30px;
+	padding-top: 5px;
+	font-style: normal;
+}
+
+/* knowledge graph */
+#knowledge-graph > .search-env > div > div > form > button {
+	margin-top: 13px;
+	margin-bottom: 13px;
+}
+
+path.arc {
+  cursor: move;
+  fill: none;
+}
+
+.node circle {
+  fill: #ccc;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+  cursor:pointer;
+}
+
+.node {
+  font-size: 10px;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+
+/* Black Swan */
+#BlackSwan-ForceChart {
+	height: 600px;
+}
+
+/* Demo */
+.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 0.5px;
+}
+
+#licensing {
+  fill: green;
+}
+
+.link.licensing {
+  stroke: green;
+}
+
+.link.resolved {
+  stroke-dasharray: 0,2 1;
+}
+
+circle {
+  fill: #ccc;
+  stroke: #333;
+  stroke-width: 1.5px;
+}
+
+text {
+  font: 12px Microsoft YaHei;
+  font-weight: bold;
+  color: white;
+  pointer-events: none;
+}
+
+.linetext {
+    font-size: 12px Microsoft YaHei;
+}

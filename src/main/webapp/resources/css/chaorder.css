@@ -1,0 +1,72 @@
+#logo {
+	width: 100%;
+}
+
+path.arc {
+  cursor: move;
+  fill: none;
+}
+
+.node circle {
+  fill: #ccc;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node {
+  font-size: 10px;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+
+#images > .panel{
+	padding-left: 0px;
+	padding-right: 0px;
+	border-radius: 5px;
+	
+}
+
+#images >.panel > .panel-heading{
+	padding-left: 20px;
+	font-weight: bold;
+	font-style: italic;
+	font-family: Microsoft YaHei;
+	color:black;
+}
+
+
+#Roi {
+	height: 250px;
+}
+
+#Rsk_Rwd {
+	height:500px;
+}
+
+#Vol_Out{
+	height:400px;
+}
+
+h3{
+	font-weight: bold;
+}
+
+#kg-search-results-product {
+	padding: 0px;
+}
+
+#knowledge_graph_product {
+	background: url(../images/texture-noise.png); 
+	height: 700px;
+	padding: 0px;
+}
+
+#knowledge_graph_industry {
+	background: url(../images/texture-noise.png); 
+	height: 700px;
+	padding: 0px;
+}

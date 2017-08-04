@@ -1,0 +1,158 @@
+/* nav bar */
+.lockscreen-page > .navbar-fixed-top{
+	background-color: 2C2E2F;
+	border-bottom: 1px solid white;
+}
+
+.lockscreen-page > .navbar-fixed-top > .navbar-inner{
+	line-height: 85px;
+	vertical-align: middle;
+}
+.navbar-fixed-top > .navbar-inner > .navbar-brand {
+	padding: 0px !important;
+}
+.navbar-brand>h2{
+	padding-top: 28px;
+	padding-bottom: 28px;
+	margin: 0px;
+	font-weight: bold;
+}
+
+.btn-group{
+	background-color:2C2E2F;
+	padding-top: 24px;
+	margin-bottom: 14px;
+}
+
+/* logo */
+#huge_log{
+	text-align: center;
+}
+
+#huge_log_img{
+	width: 50%;
+	min-width: 300px;
+	padding-top: 20px;
+}
+
+#disc_content{
+	margin-top:50px;
+	padding:3px;
+	text-align:center;
+}
+
+/* description */
+.descriptions {
+	text-align: center;
+	max-width: 300px;
+}
+
+
+/* set search format */
+.search-env > row{
+	width: 80%;
+}
+
+
+.search-env{
+	margin-top: 40px;
+}
+
+.btn{
+	font-weight: bold;
+	font-size: 15px;
+
+}
+
+.form-control {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.row > .col-md-8 > form > .btn-unstyled {
+	padding-top: 14px ; 
+	padding-bottom: 14px ;
+}
+
+
+.input-group-addon{
+	background-color:#EEEEEE !important;
+	
+}
+@media screen and (min-width: 768px){
+	.lockscreen-page{
+		padding-top:150px;
+	}
+
+	#form-g1{
+		margin-left:2%;
+		width:100%;
+	}
+	#search-input1{
+		width:100%;
+	}
+
+	#form-g2{
+		width:40%;
+	}
+	#class-select1{
+		width:70%;
+	}
+	#search-tag1{
+		
+		width:25%;
+	}
+}
+
+
+@media screen and (max-width: 768px){
+	.lockscreen-page {
+	    padding-top: 10px;
+	}
+	.navbar.horizontal-menu .navbar-inner {
+	    padding: 0px 0;
+	}
+	.login-container{
+		padding-top:80px;
+	}
+	.form-inline{
+		text-align:center;
+	}
+	#search-tag1{
+		margin-top:25px;
+		width:50%;
+	}
+
+
+	#disc_content{
+		margin-top:15px;
+		padding:3px;
+		text-align:center;
+		
+	}
+	.discripes>h2{
+		font-size:24px !important;
+	}
+	.discripes>h3{
+		font-size:20px !important;
+	}
+
+	/* set search format */
+	.searchs{
+		margin-top: 0px;
+	}
+
+	footer.main-footer{
+		text-align:center !important;
+		margin-top:150px !important;
+	}
+
+}
+
+ /*set alert*/
+ .alert{
+	 margin-top:18px;
+	 text-align:center;
+	 display:none;
+	 
+ }
